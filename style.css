@@ -1,0 +1,141 @@
+body {
+    font-family: Arial;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  .row {
+    display: flex;
+    height:100vh;
+  }
+  
+ 
+  .left {
+    flex: 15%;
+    padding: 15px 0;
+  }
+  
+  .left h2 {
+    padding-left: 8px;
+  }
+  
+  
+  .right {
+    flex: 85%;
+    padding: 15px;
+  }
+  
+  
+  #mySearch {
+    width: 100%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+  }
+  
+  
+  #myMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .ul{
+      margin: 20px 0 25px 10px;
+      font-size: 20px;
+  }
+  
+  .li{
+      color: black;
+      text-decoration: none;
+      
+  }
+  .h2{
+      text-align: center;
+      margin-bottom: 50px;
+  }
+  .h22{
+      margin: 10px;
+      font-size: 25px;
+  }
+
+  /* ///page2/// */
+  div.scrollmenu {
+    background-color: rgb(191, 235, 165);
+    overflow: auto;
+    white-space: nowrap;
+    
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: rgb(226, 224, 102);
+  }
+  .divvv{
+      height: 100vh;
+      background-color: rgb(243, 241, 227);
+  }
+
+  /* ////page1// */
+  .vertical-menu {
+    width: 200px;
+  }
+  
+  .vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+  
+  .vertical-menu a.active {
+    background-color: rgb(200, 150, 196);
+    color: black;
+  }
+
+  /* ////page2/// */
+
+  body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: pink;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
